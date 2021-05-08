@@ -9,7 +9,7 @@ $fontWeightList: 300, 400, 500, 700, 900;
 // End Font Weight
 
 // Begin Margin & Padding
-$marginPaddingList: 30;
+$marginPaddingList: 30, 100;
 
 @each $number in $marginPaddingList {
   .py-#{$number} {
@@ -18,17 +18,15 @@ $marginPaddingList: 30;
   }
 
   .px-#{$number} {
-    padding-top: $number/10 + rem !important;
-    padding-bottom: $number/10 + rem !important;
+    padding-left: $number/10 + rem !important;
+    padding-right: $number/10 + rem !important;
   }
 
   .pt-#{$number} {
     padding-top: $number/10 + rem !important;
-    padding-bottom: $number/10 + rem !important;
   }
 
   .pb-#{$number} {
-    padding-top: $number/10 + rem !important;
     padding-bottom: $number/10 + rem !important;
   }
 
@@ -52,8 +50,26 @@ $marginPaddingList: 30;
 }
 // End Margin & Padding
 
+// Begin Width & Height
+$widthHeightList: 400;
+
+@each $number in $widthHeightList {
+  .h-#{$number} {
+    height: $number/10 + rem !important;
+  }
+
+  .min-h-#{$number} {
+    height: $number/10 + rem !important;
+  }
+
+  .max-h-#{$number} {
+    height: $number/10 + rem !important;
+  }
+}
+// End Width & Height
+
 // Begin Letter Spacing
-$letterList: 1, 2, 3;
+$letterList: 1, 2, 3, 6;
 
 @each $number in $letterList {
   .letter-spacing-#{$number} {
