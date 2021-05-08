@@ -1,10 +1,14 @@
 // Begin Header
 .header {
+  background-color: $color-white;
+
   &.header-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+
+    z-index: 2;
 
     box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
   }
@@ -49,6 +53,7 @@
 
   .navbar-toggler {
     border: 0;
+    background-color: $color-black;
   }
 }
 // End Navbar
@@ -57,10 +62,10 @@
 @media (min-width: 768px) {
   // Begin Header
   .header {
+    background-color: transparent;
+    
     &.header-overlay {
       box-shadow: none;
-
-      position: static;
     }
   }
   // End Header
