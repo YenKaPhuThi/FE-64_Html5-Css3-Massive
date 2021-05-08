@@ -1,0 +1,63 @@
+// Begin Font Weight
+$fontWeightList: 300, 400, 500, 700, 900;
+
+@each $number in $fontWeightList {
+  .fw-#{$number} {
+    font-weight: $number !important;
+  }
+}
+// End Font Weight
+
+// Begin Margin & Padding
+$marginPaddingList: 30;
+
+@each $number in $marginPaddingList {
+  .py-#{$number} {
+    padding-top: $number/10 + rem !important;
+    padding-bottom: $number/10 + rem !important;
+  }
+
+  .px-#{$number} {
+    padding-top: $number/10 + rem !important;
+    padding-bottom: $number/10 + rem !important;
+  }
+
+  .pt-#{$number} {
+    padding-top: $number/10 + rem !important;
+    padding-bottom: $number/10 + rem !important;
+  }
+
+  .pb-#{$number} {
+    padding-top: $number/10 + rem !important;
+    padding-bottom: $number/10 + rem !important;
+  }
+
+  .mx-#{$number} {
+    margin-left: $number/10 + rem !important;
+    margin-right: $number/10 + rem !important;
+  }
+
+  .my-#{$number} {
+    margin-top: $number/10 + rem !important;
+    margin-bottom: $number/10 + rem !important;
+  }
+
+  .mt-#{$number} {
+    margin-top: $number/10 + rem !important;
+  }
+
+  .mb-#{$number} {
+    margin-bottom: $number/10 + rem !important;
+  }
+}
+// End Margin & Padding
+
+// Begin Letter Spacing
+$letterList: 1, 2, 3;
+
+@each $number in $letterList {
+  .letter-spacing-#{$number} {
+    letter-spacing: $number/10 + rem !important;
+  }
+}
+// End Letter Spacing

@@ -117,6 +117,76 @@ p {
   line-height: 2.7rem !important;
 }
 
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+.py-30 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.px-30 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.pt-30 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.pb-30 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.mx-30 {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
+
+.my-30 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.mt-30 {
+  margin-top: 3rem !important;
+}
+
+.mb-30 {
+  margin-bottom: 3rem !important;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 0.1rem !important;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 0.2rem !important;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 0.3rem !important;
+}
+
 .header {
   background-color: #fff;
 }
