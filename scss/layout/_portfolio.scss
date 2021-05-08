@@ -1,0 +1,25 @@
+// Begin Portfolio
+.portfolio {
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .portfolio-item {
+      padding: 1rem;
+    }
+  }
+}
+// End Portfolio
+
+// @Media
+@media (min-width: 768px) {
+  // Begin Portfolio
+  .portfolio {
+    .portfolio-list {
+      .portfolio-item {
+        width: 25%;
+      }
+    }
+  }
+  // End Portfolio
+}

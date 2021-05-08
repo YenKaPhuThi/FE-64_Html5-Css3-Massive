@@ -9,7 +9,7 @@ $fontWeightList: 300, 400, 500, 700, 900;
 // End Font Weight
 
 // Begin Margin & Padding
-$marginPaddingList: 0, 25, 30, 100;
+$marginPaddingList: 0, 5, 10, 25, 30, 100;
 
 @each $number in $marginPaddingList {
   .py-#{$number} {

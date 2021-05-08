@@ -1,0 +1,16 @@
+// Begin Link
+.link {
+  display: inline-block;
+
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.15rem;
+
+  color: $color-shaft;
+
+  &:hover {
+    color: $color-primary-light !important;
+    text-decoration: none;
+  }
+}
+// End Link
