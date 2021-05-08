@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
   letter-spacing: .2rem;
 }
 
@@ -26,6 +26,11 @@ h4 {
   font-size: 1.8rem;
   line-height: 2.7rem;
 }
+
+h5 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
 // End Heading
 
 // Begin Paragraph
@@ -44,13 +49,31 @@ p {
 .text-grey {
   color: $color-grey;
 }
+
+.text-grey-light {
+  color: $color-grey-light;
+}
+
+.text-shaft {
+  color: $color-shaft;
+}
 // End Text Color
 
 // Begin Text Size
+.fs-12 {
+  font-size: 1.2rem !important;
+  line-height: 1.8rem !important;
+}
+
 .fs-13 {
   font-size: 1.3rem !important;
   line-height: 2rem !important;
   letter-spacing: 0.05rem !important;
+}
+
+.fs-14 {
+  font-size: 1.4rem !important;
+  line-height: 3rem !important;
 }
 
 .fs-18 {
@@ -58,6 +81,13 @@ p {
   line-height: 2.7rem !important;
 }
 // End Text Size
+
+// Begin Background
+.bg-grey {
+  background-color: $bg-color;
+}
+
+// End Background
 
 // Begin Section
 .section {
