@@ -4332,7 +4332,7 @@ img {
 }
 
 .skill {
-  background: url("../../images/parallax.jpg") no-repeat center center;
+  background: url("../../images/skill/parallax.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
