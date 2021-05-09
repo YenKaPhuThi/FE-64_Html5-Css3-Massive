@@ -6,7 +6,7 @@
     .thumb-info {
       opacity: 1;
 
-      .thumb-btn {
+      .thumb-link {
         top: 40%;
         margin-top: -5.5rem;
       }
@@ -52,7 +52,7 @@
 
     transition: all 0.3s;
 
-    .thumb-btn,
+    .thumb-link,
     .thumb-detail,
     .social-link {
       position: absolute;
@@ -63,7 +63,7 @@
       transition: all 0.3s 0.2s;
     }
 
-    .thumb-btn {
+    .thumb-link {
       position: absolute;
       top: 0;
 
