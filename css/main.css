@@ -4459,6 +4459,7 @@ img {
 
 .header {
   background-color: #fff;
+  transition: all 0.3s;
 }
 
 .header.header-overlay {
@@ -4487,6 +4488,7 @@ img {
   text-transform: uppercase;
   padding: 1.2rem 2rem;
   border-top: solid 0.1rem #f0f0f0;
+  transition: all 0.3s;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -4499,12 +4501,26 @@ img {
 }
 
 .navbar-dark .navbar-brand .logo {
-  max-height: 5rem;
+  width: auto;
+  height: 5rem;
+  transition: all 0.3s;
 }
 
 .navbar-dark .navbar-toggler {
   border: 0;
-  background-color: #333;
+  padding: 0;
+  width: 2rem;
+}
+
+.navbar-dark .navbar-toggler em {
+  background: #777;
+  width: 2rem;
+  height: 0.3rem;
+  float: right;
+}
+
+.navbar-dark .navbar-toggler em + em {
+  margin: 0.35rem 0 0;
 }
 
 @media (min-width: 768px) {
@@ -4513,6 +4529,16 @@ img {
   }
   .header.header-overlay {
     box-shadow: none;
+  }
+  .header.header-sticky {
+    background: #fff;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  }
+  .header.header-sticky .navbar-dark .navbar-nav .nav-link {
+    padding: 0 1.2rem;
+  }
+  .header.header-sticky .navbar-dark .navbar-brand .logo {
+    height: 6rem;
   }
   .navbar-expand-md {
     flex-flow: row wrap;
@@ -4527,11 +4553,9 @@ img {
   .navbar-dark .navbar-nav .nav-link {
     padding: 4rem 1.2rem;
     border-top: 0;
-    transition: all 0.3s;
   }
   .navbar-dark .navbar-brand .logo {
-    max-height: 10rem;
-    transition: all 0.3s;
+    height: 10rem;
   }
 }
 

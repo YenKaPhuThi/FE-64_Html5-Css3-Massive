@@ -2,6 +2,8 @@
 .header {
   background-color: $color-white;
 
+  transition: all 0.3s;
+
   &.header-overlay {
     position: fixed;
     top: 0;
@@ -36,6 +38,8 @@
 
       border-top: solid 0.1rem $border-color;
 
+      transition: all 0.3s;
+
       &:hover {
         color: $color-primary;
       }
@@ -47,13 +51,32 @@
     margin-right: 3rem;
 
     .logo {
-      max-height: 5rem;
+      width: auto;
+      height: 5rem;
+
+      transition: all 0.3s;
     }
   }
 
   .navbar-toggler {
     border: 0;
-    background-color: $color-black;
+
+    padding: 0;
+
+    width: 2rem;
+
+    em {
+      background: $color-boulder;
+
+      width: 2rem;
+      height: 0.3rem;
+
+      float: right;
+
+      + em {
+        margin: 0.35rem 0 0;
+      }
+    }
   }
 }
 // End Navbar
@@ -63,9 +86,28 @@
   // Begin Header
   .header {
     background-color: transparent;
-    
+
     &.header-overlay {
       box-shadow: none;
+    }
+
+    &.header-sticky {
+      background: $color-white;
+      box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+
+      .navbar-dark {
+        .navbar-nav {
+          .nav-link {
+            padding: 0 1.2rem;
+          }
+        }
+
+        .navbar-brand {
+          .logo {
+            height: 6rem;
+          }
+        }
+      }
     }
   }
   // End Header
@@ -88,16 +130,12 @@
         padding: 4rem 1.2rem;
 
         border-top: 0;
-
-        transition: all 0.3s;
       }
     }
 
     .navbar-brand {
       .logo {
-        max-height: 10rem;
-
-        transition: all 0.3s;
+        height: 10rem;
       }
     }
   }
