@@ -21,13 +21,13 @@ h4 {
 }
 
 h1 {
-  font-size: 3.6rem;
-  line-height: 5.4rem;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
 }
 
 h3 {
-  font-size: 2.4rem;
-  line-height: 3.6rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
 }
 
 h4 {
@@ -113,6 +113,18 @@ img {
 
 // @Media
 @media (min-width: 768px) {
+  // Begin Heading
+  h1 {
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+  // End Heading
+
   // Begin Section
   .section {
     padding: 10rem 0;
