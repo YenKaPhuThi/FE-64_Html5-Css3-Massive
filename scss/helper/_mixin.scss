@@ -77,3 +77,48 @@ $letterList: 1, 2, 3, 4, 6;
   }
 }
 // End Letter Spacing
+
+// @Media
+@media (min-width: 768px) {
+  // Begin Margin & Padding
+  $marginPaddingList: 0, 5, 10, 25, 30, 100;
+
+  @each $number in $marginPaddingList {
+    .py-md-#{$number} {
+      padding-top: $number/10 + rem !important;
+      padding-bottom: $number/10 + rem !important;
+    }
+
+    .px-md-#{$number} {
+      padding-left: $number/10 + rem !important;
+      padding-right: $number/10 + rem !important;
+    }
+
+    .pt-md-#{$number} {
+      padding-top: $number/10 + rem !important;
+    }
+
+    .pb-md-#{$number} {
+      padding-bottom: $number/10 + rem !important;
+    }
+
+    .mx-md-#{$number} {
+      margin-left: $number/10 + rem !important;
+      margin-right: $number/10 + rem !important;
+    }
+
+    .my-md-#{$number} {
+      margin-top: $number/10 + rem !important;
+      margin-bottom: $number/10 + rem !important;
+    }
+
+    .mt-md-#{$number} {
+      margin-top: $number/10 + rem !important;
+    }
+
+    .mb-md-#{$number} {
+      margin-bottom: $number/10 + rem !important;
+    }
+  }
+  // End Margin & Padding
+}

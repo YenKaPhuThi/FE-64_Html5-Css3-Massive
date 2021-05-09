@@ -1,15 +1,23 @@
 // Begin Heading
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 3rem 0;
   font-weight: 400;
 }
 
-h1, h2, h3, h5 {
-  letter-spacing: .2rem;
+h1,
+h2,
+h3,
+h5 {
+  letter-spacing: 0.2rem;
 }
 
 h4 {
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 h1 {
@@ -35,9 +43,10 @@ h5 {
 
 // Begin Paragraph
 p {
-  margin: 0 0 3rem;
   color: $color-grey;
   line-height: 3rem;
+
+  margin: 0;
 }
 // End Paragraph
 
