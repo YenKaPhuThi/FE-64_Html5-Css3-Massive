@@ -51,6 +51,10 @@ p {
 // End Paragraph
 
 // Begin Text Color
+.text-primary {
+  color: $color-primary;
+}
+
 .text-black {
   color: $color-black !important;
 }
@@ -94,6 +98,10 @@ p {
 // Begin Background
 .bg-grey {
   background-color: $bg-color;
+}
+
+.bg-bark {
+  background-color: $color-shaft;
 }
 
 // End Background
