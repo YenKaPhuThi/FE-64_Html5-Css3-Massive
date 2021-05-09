@@ -4638,13 +4638,20 @@ img {
 }
 
 .skill .skill-overlay {
+  content: "";
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   right: 0;
   width: 50%;
   height: 100%;
-  content: "";
-  background: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .skill .skill-overlay {
+    display: block;
+  }
 }
 
 .team .team-item {
